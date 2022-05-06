@@ -1,4 +1,5 @@
 import "../Style/footer.sass";
+import logo from "../assets/logo.png";
 
 export default function Footer() {
   return (
@@ -7,10 +8,7 @@ export default function Footer() {
         <div className="footer__col1">
           <div className="footer__col1__container">
             <div className="footer__col1__logo">
-              <img
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/logo.png"
-                alt="Company logo"
-              />
+              <img src={logo} alt="Company logo" />
             </div>
 
             <div className="footer__col1__info">

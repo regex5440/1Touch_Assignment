@@ -2,6 +2,7 @@ import { faAngleUp, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef, useState } from "react";
 import "../Style/header.sass";
+import logo from "../assets/logo.png";
 
 function NavBar() {
   const [isHamMenu, setIsHam] = useState(
@@ -170,10 +171,7 @@ export default function Header() {
       <div className="header__container">
         <div className="header__logo">
           <a href="http://quicentro.xyz/quicentro/">
-            <img
-              alt="Logo"
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/logo.png"
-            />
+            <img alt="Logo" src={logo} />
           </a>
         </div>
         <NavBar />

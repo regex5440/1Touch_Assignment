@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import Slider from "react-slick/lib/slider";
 import "../Style/brandcarousal.sass";
+import accersories from "../assets/accersories.png";
+import bibi_logo from "../assets/Logo_Bibi.png";
+import fossil_logo from "../assets/Logo_Fossil.png";
+import funky_fish from "../assets/Logo_Funky-Fish.png";
+import movistar from "../assets/movistar.png";
 
 export default function BrandCarousal() {
   const [slider, setSlider] = useState(0);
@@ -56,46 +61,31 @@ export default function BrandCarousal() {
           className="brand__anchor"
           href="http://quicentro.xyz/quicentro/shop-posts/movistar/"
         >
-          <img
-            alt="Moviestar"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/movistar-2-1.png"
-          />
+          <img alt="Moviestar" src={movistar} />
         </a>
         <a
           className="brand__anchor"
           href="http://quicentro.xyz/quicentro/shop-posts/funky-fish/"
         >
-          <img
-            alt="Funky Fish"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/Logo_Funky-Fish.png"
-          />
+          <img alt="Funky Fish" src={funky_fish} />
         </a>
         <a
           className="brand__anchor"
           href="http://quicentro.xyz/quicentro/shop-posts/fossil/"
         >
-          <img
-            alt="Fossil"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/Logo_Fossil.png"
-          />
+          <img alt="Fossil" src={fossil_logo} />
         </a>
         <a
           className="brand__anchor"
           href="http://quicentro.xyz/quicentro/shop-posts/bibi/"
         >
-          <img
-            alt="Bibi"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/Logo_Bibi.png"
-          />
+          <img alt="Bibi" src={bibi_logo} />
         </a>
         <a
           className="brand__anchor"
           href="http://quicentro.xyz/quicentro/shop-posts/accesorios-celulares/"
         >
-          <img
-            alt="Accessories"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/accersories-1-1.png"
-          />
+          <img alt="Accessories" src={accersories} />
         </a>
       </Slider>
       <div className="brandCarousal__action">

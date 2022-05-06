@@ -4,6 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import b4 from "../assets/b4.jpg";
+import b3 from "../assets/b3.jpg";
+import b2 from "../assets/b2.jpg";
+import b1 from "../assets/b1.jpg";
 export default function HeroCarousal() {
   const settings = {
     infinite: true,
@@ -23,28 +27,16 @@ export default function HeroCarousal() {
     <div className="heroCarousal">
       <Slider {...settings}>
         <div className="heroCarousal__item">
-          <img
-            alt="Carousal 1"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/b4.jpg"
-          />
+          <img alt="Carousal 1" src={b4} />
         </div>
         <div className="heroCarousal__item">
-          <img
-            alt="Carousal 2"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/b3.jpg"
-          />
+          <img alt="Carousal 2" src={b3} />
         </div>
         <div className="heroCarousal__item">
-          <img
-            alt="Carousal 3"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/b2.jpg"
-          />
+          <img alt="Carousal 3" src={b2} />
         </div>
         <div className="heroCarousal__item">
-          <img
-            alt="Carousal 4"
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/b1.jpg"
-          />
+          <img alt="Carousal 4" src={b1} />
         </div>
       </Slider>
     </div>

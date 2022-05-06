@@ -2,6 +2,11 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Slider from "react-slick/lib/slider";
 import "../Style/dotcarousal.sass";
+import banner3 from "../assets/top_banner3.jpg";
+import image32 from "../assets/image032.png";
+import image37 from "../assets/image037.jpg";
+import image42 from "../assets/image042.png";
+import image49 from "../assets/image049.jpg";
 
 export default function DotCarousal() {
   const settings = {
@@ -28,10 +33,7 @@ export default function DotCarousal() {
               className="dotSlide__img"
               href="http://quicentro.xyz/quicentro/tiempo-de-reencuentro-como-encontrar-el-look-perfecto/"
             >
-              <img
-                alt=""
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2021/02/top_banner3.jpg"
-              />
+              <img alt="" src={banner3} />
             </a>
             <div className="dotSlide__txt">
               <h1>
@@ -59,10 +61,7 @@ export default function DotCarousal() {
               className="dotSlide__img"
               href="http://quicentro.xyz/quicentro/tendencias-de-moda-otono-invierno-2020-que-puedes-encontrar-en-quicentro-shopping/"
             >
-              <img
-                alt=""
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2021/02/image049.jpg"
-              />
+              <img alt="" src={image49} />
             </a>
             <div className="dotSlide__txt">
               <h1>
@@ -91,10 +90,7 @@ export default function DotCarousal() {
               className="dotSlide__img"
               href="http://quicentro.xyz/quicentro/esenciales-para-un-verano-inolvidable-en-casa/"
             >
-              <img
-                alt=""
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2021/02/image042.png"
-              />
+              <img alt="" src={image42} />
             </a>
             <div className="dotSlide__txt">
               <h1>
@@ -121,10 +117,7 @@ export default function DotCarousal() {
               className="dotSlide__img"
               href="http://quicentro.xyz/quicentro/sacos-infaltables-para-esta-temporada-de-frio/"
             >
-              <img
-                alt=""
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2021/02/image037.jpg"
-              />
+              <img alt="" src={image37} />
             </a>
             <div className="dotSlide__txt">
               <h1>
@@ -151,10 +144,7 @@ export default function DotCarousal() {
               className="dotSlide__img"
               href="http://quicentro.xyz/quicentro/prendas-antifluidos-para-no-perder-el-estilo/"
             >
-              <img
-                alt=""
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2021/02/image032.png"
-              />
+              <img alt="" src={image32} />
             </a>
             <div className="dotSlide__txt">
               <h1>
