@@ -170,7 +170,10 @@ export default function Header() {
       <div className="header__container">
         <div className="header__logo">
           <a href="http://quicentro.xyz/quicentro/">
-            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/logo.png" />
+            <img
+              alt="Logo"
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/http://quicentro.xyz/quicentro/wp-content/uploads/2020/07/logo.png"
+            />
           </a>
         </div>
         <NavBar />
