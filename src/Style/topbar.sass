@@ -1,0 +1,94 @@
+.top-bar
+    background: #00444e
+    padding: 20px 30px
+    font-size: 14px
+    border-bottom: 1px solid #fff
+    .top-bar__container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        h1
+            line-height: 26px
+            font-size: 14px
+            font-weight: 600
+            letter-spacing: 1.5px
+            padding-bottom: 0
+            margin-bottom: 0
+            color: #f8efa7
+            margin-top: 0
+            cursor: pointer
+        .top-bar__interactive
+            display: flex
+            justify-content: center
+            form.search__form
+                min-width: 207px
+                input
+                    padding: 6px 15px
+                    border-radius: 40px
+                    max-width: 150px
+                    border: none
+                    outline: none
+                input::placeholder
+                    color: hsl(0deg, 10%, 65%)
+                button
+                    position: relative
+                    left: -30px
+                    border-radius: 50%
+                    background: none
+                    border: none
+                    outline: none
+                    color: hsl(0deg,10%,80%)
+                    font-size: 15px
+                    cursor: pointer
+            .top-bar__interactive-links
+                flex-wrap: nowrap
+                min-width: 111px
+                a
+                    color: #fff
+                    margin-right: 5px
+                a:last-child
+                    margin-right: 0
+
+.top-bar
+    .popup__overlay
+        position: fixed
+        background: hsl(0deg 0% 0% / 50%)
+        top: 0
+        left: 0
+        height: 100vh
+        width: 100vw
+        overflow: hidden
+        z-index: 9
+    .popup__container
+        position: fixed
+        height: 500px
+        width: 700px
+        max-width: 90%
+        top: 40%
+        left: 50%
+        transform: translate(-50%,-50%)
+        background: #00444e
+        z-index: 10
+        box-shadow: 5px 10px 50px 40px hsl(0deg 0% 10% / 50%)
+        .popup__close
+            float: right
+            margin-top: 10px
+            margin-right: 10px
+            line-height: 0
+            font-size: 26px
+            color: #fff
+            cursor: pointer
+        h1
+            color: #fff
+            text-align: center
+            margin-top: 40px
+@media screen and ( max-width: 768px )
+    .top-bar
+        padding: 10px 20px
+    .top-bar .top-bar__container
+        align-items: flex-start
+
+@media screen and (max-width: 600px)
+    .top-bar__container
+        flex-direction: column
+        align-items: center !important

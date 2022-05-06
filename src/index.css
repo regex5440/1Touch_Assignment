@@ -1,13 +1,14 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url('./Style/Font/Century\ Gothic.ttf'),url('./Style/Font/CenturyGothic.ttf'), url('./Style/Font/GOTHIC.TTF'), url('./Style/Font/GOTHICB.TTF'), url('./Style/Font/GOTHICB0.TTF'), url('./Style/Font/GOTHICBI.TTF'), url('./Style/Font/GOTHICI.TTF') format("ttf");
+}
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Century Gothic";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3,h4,h5,h6{
+  font-family: "Century Gothic";
 }
