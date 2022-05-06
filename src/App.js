@@ -1,4 +1,4 @@
-import { faClose, faCross, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faClose, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import "./App.sass";
